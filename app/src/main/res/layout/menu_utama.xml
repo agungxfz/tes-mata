@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Tes Mata"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Tes Buta Warna"
+        android:id="@+id/btnButaWarna"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:textColor="#000000" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Tes Visus Mata"
+        android:id="@+id/btnVisus"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Game Kuku Kube"
+        android:id="@+id/btnKukuKube"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Tentang Aplikasi"
+        android:id="@+id/btnTentang"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:id="@+id/btnKeluar"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:textColor="#000000" />
+
+</LinearLayout>
